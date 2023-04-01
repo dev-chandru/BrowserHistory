@@ -1,0 +1,69 @@
+.history-list-item-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+.time {
+  font-family: 'Roboto';
+  font-size: 13px;
+  font-weight: 600;
+  color: #64748b;
+}
+.history-main-card-container {
+  display: flex;
+  align-items: center;
+}
+.history-cards-container {
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+  flex-grow: 1;
+}
+.logo-icon {
+  width: 25px;
+  height: 25px;
+}
+.history-cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 15px;
+}
+.title {
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 600;
+  color: #475569;
+  margin-bottom: 0px;
+}
+.domain-link {
+  font-family: 'Roboto';
+  font-size: 10px;
+  font-weight: 500;
+  color: #64748b;
+  margin-top: 0px;
+}
+.delete-icon {
+  width: 20px;
+}
+.button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+@media screen and (min-width: 768px) {
+  .history-list-item-container {
+    flex-direction: row;
+    align-items: center;
+  }
+  .time {
+    margin-right: 35px;
+  }
+  .history-main-card-container {
+    margin-left: 20px;
+  }
+  .history-main-card-container {
+    flex-grow: 1;
+  }
+}
